@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(red, blue);
+    background: linear-gradient(to right, grey, silver);
 }
 .card {
     display: flex;
@@ -18,10 +18,11 @@ body {
 .button {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 .old-user {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .navbar {
     display: flex;
@@ -33,4 +34,8 @@ body {
 }
 .old-user a:hover {
     text-decoration: underline;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
 }

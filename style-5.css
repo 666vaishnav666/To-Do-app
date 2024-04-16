@@ -1,0 +1,17 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to right, grey, silver);
+}
+.navbar {
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+}
+.card {
+    display: flex;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gold;
+}

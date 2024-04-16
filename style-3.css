@@ -15,29 +15,13 @@ body {
     padding: 30px;
     width: 100%;
 }
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 .navbar {
     display: flex;
     border-radius: 20px;
     padding: 20px;
-}
-.new-user {
-    display: flex;
-    justify-content: space-between;
-}
-.button {
-    display: flex;
-    justify-content: center;
-}
-.card-img-top {
-    overflow: hidden;
-}
-.new-user a {
-    text-decoration: none;
-}
-.new-user a:hover {
-    text-decoration: underline;
-}
-.card-img-top {
-    padding: 20px;
-    border-radius: 50px;
 }
