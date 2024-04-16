@@ -41,3 +41,55 @@ body {
     padding: 20px;
     border-radius: 50px;
 }
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.nav-item-1 {
+    border-radius: 50px;
+    padding: 5px;
+}
+.nav-item-2 {
+    border-radius: 50px;
+    padding: 5px;
+}
+.nav-item-3 {
+    border-radius: 50px;
+    padding: 5px;
+}
+.nav-item-4 {
+    border-radius: 50px;
+    padding: 5px;
+}
+.nav-item-1:hover {
+    background-color: aqua;
+    transition: .2s ease-in-out;
+    transform: translateY(10px);
+}
+.nav-item-2:hover {
+    background-color: aqua;
+    transition: .2s ease-in-out;
+    transform: translateY(10px);
+}
+.nav-item-3:hover {
+    background-color: aqua;
+    transition: .2s ease-in-out;
+    transform: translateY(10px);
+}
+.nav-item-4:hover {
+    background-color: aqua;
+    transition: .2s ease-in-out;
+    transform: translateY(10px);
+}
+.navbar-brand a {
+    border-radius: 50px;
+    padding: 5px;
+}
+.navbar-brand a:hover {
+    background-color: aqua;
+    transition: .2s ease-in-out;
+    transform: translateY(10px);
+}
