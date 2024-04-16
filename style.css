@@ -1,0 +1,36 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(red, blue);
+}
+.card {
+    display: flex;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gold;
+}
+.card-body {
+    display: absolute;
+    padding: 30px;
+    width: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.old-user {
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar {
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+}
+.old-user a {
+    text-decoration: none;
+}
+.old-user a:hover {
+    text-decoration: underline;
+}
