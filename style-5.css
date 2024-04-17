@@ -16,6 +16,7 @@ body {
     border-style: solid;
     border-width: 5px;
     border-color: gold;
+    border-style: outset;
 }
 .navbar-nav {
     display: flex;
@@ -73,9 +74,9 @@ body {
     transition: .2s ease-in-out;
     transform: translateY(10px);
 }
-.navbar-items a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.form-control{
+    box-sizing: border-box;
+    border-radius: 40px;
+    border-color: black;
 }
 

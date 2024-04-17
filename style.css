@@ -11,6 +11,7 @@ body {
     border-style: solid;
     border-width: 5px;
     border-color: gold;
+    border-style: outset;
 }
 .card-body {
     display: absolute;
@@ -97,5 +98,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.form-control{
+    box-sizing: border-box;
+    border-radius: 40px;
+    border-color: black;
 }
 
