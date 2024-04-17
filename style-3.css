@@ -84,4 +84,9 @@ body {
     transition: .2s ease-in-out;
     transform: translateY(10px);
 }
+.navbar-items a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
