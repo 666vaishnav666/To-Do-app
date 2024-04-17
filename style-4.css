@@ -2,6 +2,8 @@ body {
     padding: 0px;
     margin: 0px;
     background: linear-gradient(to right, grey, silver);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .card {
     display: flex;
@@ -52,21 +54,25 @@ body {
 }
 .nav-item-1:hover {
     background-color: aqua;
+    letter-spacing: 3px;
     transition: .2s ease-in-out;
     transform: translateY(10px);
 }
 .nav-item-2:hover {
     background-color: aqua;
+    letter-spacing: 3px;
     transition: .2s ease-in-out;
     transform: translateY(10px);
 }
 .nav-item-3:hover {
     background-color: aqua;
+    letter-spacing: 3px;
     transition: .2s ease-in-out;
     transform: translateY(10px);
 }
 .nav-item-4:hover {
     background-color: aqua;
+    letter-spacing: 3px;
     transition: .2s ease-in-out;
     transform: translateY(10px);
 }
